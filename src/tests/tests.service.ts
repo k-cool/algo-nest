@@ -17,7 +17,7 @@ export class TestsService {
     }
 
     //test 생성
-    createBoard(createTestDto: CreateTestDto): Promise<Test> {
+    createTest(createTestDto: CreateTestDto): Promise<Test> {
         return this.testRepository.createTest(createTestDto);
     }
 }
